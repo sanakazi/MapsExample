@@ -131,7 +131,7 @@ public class ShowRoute extends AppCompatActivity {
                                 List<LatLng> list = decodePoly(encodedString);
                                 line = mMap.addPolyline(new PolylineOptions()
                                         .addAll(list)
-                                        .width(20)
+                                        .width(10)
                                         .color(Color.RED)
                                         .geodesic(true)
                                 );
